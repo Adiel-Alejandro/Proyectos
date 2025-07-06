@@ -32,24 +32,6 @@ header {
     padding: 0 15px;
 }
 
-/* .search-bar {
-    transition: all 0.3s ease;
-    background-color: #E6E6E6;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 700;
-    align-items: center;
-    justify-items: center;
-    width: 478px;
-    height: 46px;
-    cursor: pointer;
-}
-
-.search-bar:active{
-    border: #ff0000;
-}  */
-
 .boton{
     display: flex;
     flex-direction: row;
@@ -329,18 +311,18 @@ header {
         font-size: 7.5rem;
     }
     .categorias{
-        margin: 10px 0;
+        margin: 50px 0;
         justify-content: center;
         align-items: center;
     }
     .categorias h2{
-        font-size: 7rem;
+        font-size: 6rem;
         margin-top: 15px;
     }
 }
 
 /* pantasllas pequeñas */
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 777px){
     .container-fluid{
         justify-content: center;
         align-items: center;
@@ -372,6 +354,7 @@ header {
         padding-top: 5px;
     }
     .hero-Titulo{
+        margin-top: 2rem;
         padding-left: 5px;
         padding-top: 5PX;
         padding-right: 5px;
@@ -390,6 +373,9 @@ header {
         border: none;
         width: 190px;
         height: 45px;
+    }
+    .categorias{
+        margin-top: 15px;
     }
     .categorias h2{
         font-size: 3rem;
@@ -416,11 +402,12 @@ header {
         font-size: 1.5rem;
     }
     .comidas p{
-    font-size: .8rem;
+    font-size: 1.5rem;
     text-align: center;
     }
     .comidas{
-        margin-top: 80px;
+        font-size: .8rem;
+        margin-top: 150px;
     }
     .restaurantes h2{
         text-align: center;
@@ -435,6 +422,7 @@ header {
     }
 
     .menu{
+        margin-left: 0;
         text-align: center;
     }
     .btn-exp{
