@@ -1,0 +1,72 @@
+# Wireframe para la Página de Inicio de FoodExpress
+
+## 1. Definición de Requerimientos
+Para mejorar la experiencia del usuario y aumentar conversiones en la página de inicio de FoodExpress, se incluirán los siguientes elementos esenciales:
+
+### Elementos clave:
+- **Barra de Búsqueda**: Campo prominente donde los usuarios pueden buscar comida por tipo o ubicación.
+- **Categorías de Comida**: Secciones como "Pizza", "Sushi", "Hamburguesas", "Vegano", "Postres", etc.
+- **Restaurantes Destacados**: Carrusel o grilla con restaurantes mejor valorados o populares.
+- **Proceso de Pedido**: Pequeña guía visual sobre cómo realizar un pedido (Selecciona -> Ordena -> Recibe).
+- **Opciones de Registro e Inicio de Sesión**: Para personalizar la experiencia y guardar pedidos anteriores.
+- **Imágenes Atractivas**: Fotos de platos llamativos para incentivar pedidos.
+- **Promociones y Descuentos**: Sección destacada con ofertas especiales.
+- **Botón de Pedido Rápido**: Acceso directo a opciones recomendadas según preferencias previas o más solicitadas.
+
+---
+
+## 2. Análisis de Referencias
+Para inspiración, se analizaron plataformas de entrega de comida como:
+- **Uber Eats**: Barra de búsqueda intuitiva, categorías visuales, restaurantes destacados.
+- **Rappi**: Promociones visibles, opciones de filtrado rápido.
+- **DoorDash**: Flujo de pedido simplificado y botones de "Reordenar".
+
+**Elementos a destacar**:
+- Diseño limpio con enfasis en usabilidad.
+- Experiencia personalizada según historial de pedidos.
+- Carga rápida y optimización para dispositivos móviles.
+
+---
+
+## 3. Estructura del Wireframe
+### **Encabezado (Header):**
+- Logo de FoodExpress (esquina superior izquierda).
+- Barra de búsqueda (centrada, con icono de ubicación).
+- Botones de "Iniciar Sesión" y "Registrarse" (esquina superior derecha).
+
+### **Sección Principal (Hero Section):**
+- Imagen grande y atractiva de un plato popular.
+- Texto llamativo: "Tu comida favorita en minutos."
+- Botón "Explorar Restaurantes".
+
+### **Categorías Destacadas:**
+- Filas de iconos con nombres: "Pizza", "Sushi", "Tacos", etc.
+- Carrusel desplazable para visualizar más opciones.
+
+### **Restaurantes Destacados:**
+- Tarjetas con imagen, nombre, tiempo estimado de entrega y calificaciones.
+- Botón "Ordenar Ahora" en cada tarjeta.
+
+### **Proceso de Pedido Paso a Paso:**
+1. **Selecciona tu restaurante.**
+2. **Elige tu comida.**
+3. **Paga fácilmente y recibe tu pedido.**
+
+### **Ofertas y Promociones:**
+- Descuentos en restaurantes populares.
+- Envíos gratuitos por primera compra.
+
+### **Pie de Página (Footer):**
+- Enlaces a "Términos y Condiciones", "Contacto" y "Soporte".
+- Redes sociales.
+- Botones de descarga de la app.
+
+---
+
+## 4. Compartir y Recibir Retroalimentación
+- Se compartirá el wireframe con compañeros y clientes para recibir sugerencias.
+- Se mejorará el diseño según la retroalimentación obtenida.
+
+**Conclusión:**
+El nuevo diseño de la página de inicio de FoodExpress mejorará la experiencia del usuario al hacer pedidos de forma intuitiva, rápida y visualmente atractiva.
+
