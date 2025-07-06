@@ -355,13 +355,11 @@ header {
     }
     .hero-Titulo{
         margin-top: 2rem;
-        padding-left: 5px;
-        padding-top: 5PX;
-        padding-right: 5px;
+        padding: 2rem 2rem;
        
     }
     .hero-Titulo h1{
-        font-size: 3rem;
+        font-size: 4rem;
         padding-top: 0;
 
     }
@@ -375,18 +373,22 @@ header {
         height: 45px;
     }
     .categorias{
-        margin-top: 15px;
+        margin-top: 1rem;
     }
     .categorias h2{
         font-size: 3rem;
         margin-top: 8px;
     }
+
     .card{
         width: 300px;
         height: 289px;
         border-style: none;
         padding: 0;
-        margin-top: 65px;
+        margin-top: 4rem;
+    }
+    #card2{
+        margin-top: 11rem;
     }
     .card img{
         height: 241px;
