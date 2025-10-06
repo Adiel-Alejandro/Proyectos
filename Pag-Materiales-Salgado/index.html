@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materiales Salgado</title>
+  <meta name="description" content="Venta de materiales para construcción en Cuernavaca, Morelos.">
+  <meta name="keywords" content="cemento, grava, arena, varilla, construcción, Cuernavaca">
+  <meta name="author" content="Materiales Salgado">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Materiales Salgado</div>
+    <nav>
+      <ul>
+        <li><a href="#productos" data-en="Products" data-es="Productos" class="productos">Productos</a></li>
+        <li><a href="#contacto" data-en="Contact" data-es="Contacto" class="contacto">Contacto</a></li>
+        <li>
+          <select id="language-switcher">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+          </select>
+          <li>
+              <button id="modo-oscuro-toggle" class="switch-modo-oscuro" aria-label="Cambiar modo oscuro">
+                <span class="icon-sol" style="display:inline-block;vertical-align:middle;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="5" fill="#FFD600"/>
+                    <g stroke="#FFD600" stroke-width="2">
+                      <line x1="12" y1="2" x2="12" y2="6"/>
+                      <line x1="12" y1="18" x2="12" y2="22"/>
+                      <line x1="2" y1="12" x2="6" y2="12"/>
+                      <line x1="18" y1="12" x2="22" y2="12"/>
+                      <line x1="4.22" y1="4.22" x2="6.34" y2="6.34"/>
+                      <line x1="17.66" y1="17.66" x2="19.78" y2="19.78"/>
+                      <line x1="4.22" y1="19.78" x2="6.34" y2="17.66"/>
+                      <line x1="17.66" y1="6.34" x2="19.78" y2="4.22"/>
+                    </g>
+                  </svg>
+                </span>
+                <span class="icon-luna" style="display:none;vertical-align:middle;">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 0 1 12.21 3a7 7 0 1 0 8.79 9.79z" fill="#FFF" stroke="#01509f" stroke-width="2"/>
+                  </svg>
+                </span>
+              </button>
+          </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="search-filter">
+    <input type="text" id="search" placeholder="Buscar producto..." oninput="filtrarProductos()">
+    <select id="filtro-categoria" onchange="filtrarProductos()">
+        <option value="todos" data-en="All" data-es="Todos">Todos</option>
+        <option value="cemento">Cemento</option>
+        <option value="acero">Acero</option>
+        <option value="químicos">Químicos</option>
+        <option value="agregados">Agregados</option>
+    </select>
+  </div>
+
+  <section id="productos agregado">
+    <h2 class="titulo" data-en="Product Catalog" data-es="Catálogo de Productos">Catálogo de Productos</h2>
+    <div class="productos-container" id="productos-container"></div>
+    <div class="pagination">
+      <button id="prevPage">⬅</button>
+      <span id="pageIndicator">Página 1</span>
+      <button id="nextPage">➡</button>
+    </div>
+  </section>
+
+
+  <section id="pedido">
+    <h2 class="titulo" data-en="Your Order" data-es="Tu Pedido">Tu Pedido</h2>
+    <ul id="lista-pedido"></ul>
+    <ul id="lista-pedido"></ul>
+    <div id="total-pedido"></div>
+    <p class="msj" data-en="*Prices may change without prior notice." data-es="*Los precios pueden cambiar sin previo aviso.">*Los precios pueden cambiar sin previo aviso. </p>
+    <div id="datos-usuario">
+      <label for="nombre-usuario" data-en="Name:" data-es="Nombre:">Nombre:</label>
+      <input type="text" id="nombre-usuario" placeholder="Tu nombre" required >
+      <label for="direccion-usuario" data-en="Address:" data-es="Dirección:">Dirección:</label>
+      <input type="text" id="direccion-usuario" placeholder="Tu dirección" required >
+    </div>
+    <a id="btn-whatsapp" href="#" target="_blank">Enviar por WhatsApp</a>
+  </section>
+
+
+  <section id="ubicacion">
+    <h2 class="titulo" id="Location"data-en="Location" data-es="Ubicación">Ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1090.4017866351817!2d-99.11830994685654!3d18.881325463473793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce74174f502571%3A0xfd1c635c628faad8!2sMateriales%20Salgado!5e0!3m2!1ses-419!2smx!4v1759009591127!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section id="horario">
+    <h2 data-en="Business Hours" data-es="Horario de Atención">Horario de Atención</h2>
+    <p data-en="Monday to Friday: 7:00 AM - 6:00 PM" data-es="Lunes a Viernes: 7:00 AM - 6:00 PM">Lunes a Viernes: 7:00 AM - 6:00 PM</p>
+    <p data-en="Saturday: 7:00 AM - 2:00 PM" data-es="Sábado: 7:00 AM - 2:00 PM">Sábado: 7:00 AM - 2:00 PM</p>
+    <p data-en="Sunday: Closed" data-es="Domingo: Cerrado">Domingo: Cerrado</p>
+  </section>
+
+  <button id="scrollTopBtn" title="Regresar arriba">⬆</button>
+
+
+  <footer id="contacto">
+    <p>📍 Yautepec, Morelos</p>
+    <p>📞 Tel: 777-323-36-51</p>
+    <p>📞 Tel: 777-323-17-43</p>
+    <a href="tel:7773231743" data-en="Call now" data-es="Llamar ahora">Llamar ahora</a>
+    <p>© 2025 Materiales Salgado</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
