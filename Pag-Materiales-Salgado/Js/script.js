@@ -31,7 +31,7 @@ let productos = [
   { nombre: 'Alambre recocido', precios: { kg: 110 }, unidad: ['kg'], imagen: 'Images/alambre-recocido.jpg', categoria: 'acero' },
   { nombre: 'Clavo 2 pulgadas', precios: { kg: 45 }, unidad: ['kg'], imagen: 'Images/clavo-2.jpg', categoria: 'acero' },
   { nombre: 'Ladrillo', precios: { pieza: 8, millar: 8000 }, unidad: ['pieza', 'millar'], imagen: 'Images/ladrillo.jpg', categoria: 'agregados' },
-  { nombre: 'Grava fina', precios: { m3: 88, kg: 4 }, unidad: ['m3', 'kg'], imagen: 'Imges/grava-fina.jpg', categoria: 'agregados' },
+  { nombre: 'Grava fina', precios: { m3: 88, kg: 4 }, unidad: ['m3', 'kg'], imagen: 'Images/grava-fina.jpg', categoria: 'agregados' },
   { nombre: 'Impermeabilizante acrílico', precios: { cubeta: 250, litro: 25 }, unidad: ['cubeta', 'litro'], imagen: 'Images/impermeabilizante.jpg', categoria: 'químicos' },
   { nombre: 'Pintura vinílica', precios: { galón: 180, litro: 50 }, unidad: ['galón', 'litro'], imagen: 'Images/pintura.jpg', categoria: 'químicos' },
   { nombre: 'Yeso', precios: { bulto: 60, kg: 3 }, unidad: ['bulto', 'kg'], imagen: 'Images/yeso.jpg', categoria: 'cemento' },
